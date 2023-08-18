@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    
+	
+    <title></title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery and Modernizr-->
+	<script src="js/jquery-2.1.1.js"></script>
+
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--Header-->
+	<header class="sub-header">
+		
+		<div class="container text-center">
+			<a class="site-branding" href="index.html">
+				<h1 class="site-title">
+					PORTFOLIO
+				</h1>
+				<p class="site-description">
+					周淋
+				</p>
+			</a><!-- .site-branding -->
+		</div>
+		
+		<!--Navigation-->
+		<div id="menu-wrapper">
+			<nav id="menu" class="navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+					</div>
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		
+	</header>
+	<!-- /Section: intro -->
+	
+	<!-- /////////////////////////////////////////Content -->
+	<div id="page-content">
+		
+		<!-----------------Content-------------------->
+		<section class="box-content">
+			<div class="container">
+				
+				<div class="row">
+					<!--Start Map-->
+					
+					<!--End Map-->
+					<div class="col-md-4 box-item" >
+						<h3>Contact Info</h3>
+						<span>姓名：周淋</span>
+						<br>专业：数字媒体技术 <br>
+						<p>学校：宜宾学院<br>
+							</p>
+							<p>年级：2020-2024<br>
+							</p>
+						   <p>+86 19881206648 <br>
+							</p>
+							<p>wx:zlin011023 <br>
+							</p>
+							<p>QQ：1685352175 <br>
+							</p>
+							<p>邮箱：1685352175@qq.com <br>
+							</p>
+						<p></p>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+	</div>
+		
+	
+	
+	<!-- JS -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$(function() {
+			$('#menu-wrapper').height($("#menu").height());
+			
+			$('#menu').affix({
+				offset: { top: $('#menu').offset().top }
+			});
+		});
+	</script>
+	
+	
+	
+</body>
+</html>
